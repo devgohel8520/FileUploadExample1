@@ -1,0 +1,4 @@
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+<div class='author-meta box'><div class='author-image'> <script expr:src='&quot;/feeds/posts/default/&quot; + data:post.id + &quot;?alt=json-in-script&amp;amp;callback=av&quot;'/>
+</div><div class='author-body'><h2 class='vcard author'><span class='fn'><b:if cond='data:top.showAuthor'><a><data:post.author/></a></b:if></span></h2><p>Some say he&#8217;s half man half fish, others say he&#8217;s more of a seventy/thirty split. Either way he&#8217;s a fishy bastard. <a href='https://plus.google.com/113209237972380216510?rel=author'>Google</a></p></div></div>
+</b:if>
